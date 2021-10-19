@@ -466,10 +466,18 @@ footer .container {
     display: inline-block;
     padding: 20px 26px 20px 26px;
     transition: 500ms;
-    /*  margin-right: 24px; */
+
 }
 
 .footer__nav-link {
+    font-family: var(--r400);
+    color: white;
+    display: none;
+    padding: 20px 26px 20px 26px;
+    transition: 500ms;
+}
+
+.footer__nav-link2 {
     font-family: var(--r400);
     color: white;
     display: inline-block;
@@ -489,12 +497,6 @@ footer .container {
     border-radius: 30px;
 }
 
-.footer__end {
-    color: white;
-    font-family: var(--r100);
-    margin-top: 50px;
-
-}
 
 
 /* Footer end */
@@ -610,6 +612,12 @@ footer .container {
     }
   .footer__nav-link1{
         display: none;
+    }
+  .footer__nav-link2{
+        display: none;
+    }
+  .footer__nav-link{
+        display: inline-block;
     }
     .main__items1 p:first-of-type{
         display: none;
